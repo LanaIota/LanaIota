@@ -204,3 +204,48 @@ a.work-card:active {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+/* お知らせ */
+.news-table {
+  background-color: var(--card-bg, #1e293b);
+  border: 1px solid var(--border-color, #334155);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.news-row {
+  display: flex;
+  align-items: baseline;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border-color, #334155);
+  text-decoration: none;
+  color: var(--text-main, #f8fafc);
+  transition: background-color 0.2s ease;
+}
+
+.news-row:last-child {
+  border-bottom: none;
+}
+
+a.news-row:hover {
+  background-color: rgba(56, 189, 248, 0.08);
+}
+
+a.news-row:hover .news-content {
+  color: var(--accent-color, #38bdf8);
+  text-decoration: underline;
+}
+
+.news-date {
+  width: 110px;
+  flex-shrink: 0;
+  font-size: 0.85rem;
+  color: var(--text-sub, #94a3b8);
+  font-family: monospace, sans-serif;
+}
+
+.news-content {
+  flex: 1;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
