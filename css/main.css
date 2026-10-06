@@ -249,3 +249,35 @@ a.news-row:hover .news-content {
   font-size: 0.9rem;
   line-height: 1.5;
 }
+
+/* シェアエリア */
+.share-section {
+  text-align: center;
+  margin: 24px 0;
+}
+
+.share-title {
+  font-size: 0.85rem;
+  color: var(--text-sub, #94a3b8);
+  margin-bottom: 10px;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid var(--border-color, #334155);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.share-btn:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+}
