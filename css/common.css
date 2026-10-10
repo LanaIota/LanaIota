@@ -31,6 +31,21 @@ body {
     gap: 32px;
 }
 
+/* セクションタイトル */
+.section-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-main);
+}
+
+.section-title i {
+    color: var(--accent-color);
+}
+
 /* フッター */
 footer {
     text-align: center;
